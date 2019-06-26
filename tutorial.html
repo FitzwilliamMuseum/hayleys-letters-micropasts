@@ -34,56 +34,43 @@
               </ul>
             </div>
 
-            <div id="2" class="modal-body" style="display:none">
-              <p>
-                The letters can be read in the following way:
+            <!-- End of stepped modal body -->
 
-              </p>
-
-              <img src="https://c1.staticflickr.com/1/802/39250604820_33506c29f2_z.jpg" />
-
-
-
-              </div>
-
-
-              <!-- End of stepped modal body -->
-
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <a id="prevBtn" href="#" onclick="showStep('prev')" class="btn btn-default">Previous</a>
-                <a id="nextBtn" href="#" onclick="showStep('next')" class="btn btn-success">Next</a>
-                <a id="startContrib" data-dismiss="modal" href="../hayleysletters/newtask" class="btn btn-primary"
-                style="display:none"/><i class="glyphicon glyphicon-thumbs-up"></i> Let's start!</a>
-              </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <a id="prevBtn" href="#" onclick="showStep('prev')" class="btn btn-default">Previous</a>
+              <a id="nextBtn" href="#" onclick="showStep('next')" class="btn btn-success">Next</a>
+              <a id="startContrib" data-dismiss="modal" href="../hayleysletters/newtask" class="btn btn-primary"
+              style="display:none"/><i class="glyphicon glyphicon-thumbs-up"></i> Let's start!</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script type="text/javascript">
-      var step = -1;
-      function showStep(action) {
-        $("#" + step).hide();
-        if (action == 'next') {
-          step = step + 1;
-        }
-        if (action == 'prev') {
-          step = step - 1;
-        }
-        if (step == 0) {
-          $("#prevBtn").hide();
-        }
-        else {
-          $("#prevBtn").show();
-        }
-        if (step == 2 ) {
-          $("#nextBtn").hide();
-          $("#startContrib").show();
-        }
-        $("#" + step).show();
+  <script type="text/javascript">
+    var step = -1;
+    function showStep(action) {
+      $("#" + step).hide();
+      if (action == 'next') {
+        step = step + 1;
       }
-      showStep('next');
-      $("#modal").modal('show');
-    </script>
+      if (action == 'prev') {
+        step = step - 1;
+      }
+      if (step == 0) {
+        $("#prevBtn").hide();
+      }
+      else {
+        $("#prevBtn").show();
+      }
+      if (step == 2 ) {
+        $("#nextBtn").hide();
+        $("#startContrib").show();
+      }
+      $("#" + step).show();
+    }
+    showStep('next');
+    $("#modal").modal('show');
+  </script>
