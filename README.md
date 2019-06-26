@@ -1,4 +1,4 @@
-# Index card transcription for the Society of Antiquaries of London
+# Source code for a MicroPasts application to transcribe Hayley's letters
 
 An application for transcription of index cards.
 
@@ -39,7 +39,7 @@ You need to use the PBS command line interface for creating and updating the pro
 Documentation
 =============
 
-We recommend that you read the section: [Build with PyBossa](http://docs.pybossa.com/en/latest/build_with_pybossa.html) 
+We recommend that you read the section: [Build with PyBossa](http://docs.pybossa.com/en/latest/build_with_pybossa.html)
 and follow the [step by step tutorial](http://docs.pybossa.com/en/latest/user/tutorial.html).
 
 
