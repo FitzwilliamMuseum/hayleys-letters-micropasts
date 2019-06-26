@@ -5,8 +5,8 @@ This project is on behalf of the Fitzwilliam Museum, University of Cambridge and
 This project contains 3 sets of correspondence:
 
 * William Hayley
-* Flaxman
-* Eliza
+* John Flaxman
+* Eliza Ball
 
 
 ## How to transcribe the card index
