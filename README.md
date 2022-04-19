@@ -1,5 +1,8 @@
 # Source code for a MicroPasts application to transcribe Hayley's letters
 
+![hayleyMicropasts](https://user-images.githubusercontent.com/286552/164111834-b8636357-e97f-423f-85b8-0a83aafb226b.jpg)
+
+
 An application for transcription of index cards.
 
 This application has four files:
