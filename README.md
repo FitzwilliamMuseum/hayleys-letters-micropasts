@@ -1,5 +1,7 @@
 # Source code for a MicroPasts application to transcribe Hayley's letters
 
+[![DOI](https://zenodo.org/badge/193875485.svg)](https://zenodo.org/badge/latestdoi/193875485)
+
 ![hayleyMicropasts](https://user-images.githubusercontent.com/286552/164111834-b8636357-e97f-423f-85b8-0a83aafb226b.jpg)
 
 
